@@ -1,0 +1,41 @@
+$date
+	Fri Apr 07 22:20:56 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module inverter_tb $end
+$var wire 1 ! in_B $end
+$var reg 1 " in_A $end
+$scope module Inverterrr $end
+$var wire 1 # A $end
+$var wire 1 ! B $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+1!
+$end
+#10
+0!
+1"
+1#
+#20
+1!
+0"
+0#
+#30
+0!
+1"
+1#
+#40
+1!
+0"
+0#
+#50
