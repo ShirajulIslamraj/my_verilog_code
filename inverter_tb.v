@@ -12,6 +12,8 @@ initial begin
     $dumpfile("inverter.vcd");
     $dumpvars(0, inverter_tb);
 
+    
+
     in_A = 0;
     #10 in_A = 1;
     #10 in_A = 0;
