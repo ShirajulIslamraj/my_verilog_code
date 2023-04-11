@@ -1,7 +1,7 @@
 echo "# my_verilog_code" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
+git add README.md OR $ git add -A
+git commit -m "first commit" OR git commit -m "my_verilog_code"
 git branch -M main
 git remote add origin https://github.com/ShirajulIslamraj/my_verilog_code.git
 git push -u origin main

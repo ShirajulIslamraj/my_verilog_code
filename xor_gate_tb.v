@@ -1,14 +1,14 @@
-`include "or_gate.v"
-module or_gate_tb;
+`include "xor_gate.v"
+module xor_gate_tb;
 
 reg a_in, b_in;
 wire y_out;
 
-or_gate or_gate_tb_i(.a(a_in), .b(b_in), .y(y_out));
+xor_gate xor_gate_tb_i(.a(a_in), .b(b_in), .y(y_out));
 
 initial begin
-    $dumpfile("or_gate.vcd");
-    $dumpvars(0, or_gate_tb);
+    $dumpfile("xor_gate.vcd");
+    $dumpvars(0, xor_gate_tb);
 
     a_in = 0;
     b_in = 0;
