@@ -9,3 +9,12 @@ git push -u origin main
 git remote add origin https://github.com/ShirajulIslamraj/my_verilog_code.git
 git branch -M main
 git push -u origin main
+
+
+git add -A
+
+git commit -m "my_verilog_code"
+
+ git branch -M main
+
+git push -u origin main
